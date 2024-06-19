@@ -1,0 +1,23 @@
+/* Imatge */
+.responsive {
+    width: 100%;
+    height: auto;
+  }
+/* Contingut */
+.container {
+    padding: 64px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.intro {
+    font-size:20px;
+}
+.large {
+    font-size: 38px;
+}
+.text{
+    text-align: justify;
+    line-height: 1.5;
+}
+.title{
+    font-size: 23px;
+}

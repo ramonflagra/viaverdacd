@@ -1,0 +1,35 @@
+/* Barra superior */
+body {
+    background-color: #aaaaaa;
+    
+}
+.tabs {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f1f1f1;
+  }
+
+  .tabs li {
+    float: left;
+  }
+
+  .tabs li a {
+    display: block;
+    color: #333;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    padding: 14px 30px;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+  }
+
+  .tabs li a:hover {
+    background-color: #ddd;
+  }
+
+  .tabs li a.active {
+    background-color: #ccc;
+    border-bottom: 2px solid #333;
+  }
